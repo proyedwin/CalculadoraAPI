@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: api-calculadora-pod
+  labels:
+    app: api-calculadora
+spec:
+  containers:
+  - name: api-calculadora
+  image: proyedwin/api-calculadora:multistage
+  ports:
+  - containerPort: 5081
