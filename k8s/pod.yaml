@@ -7,6 +7,6 @@ metadata:
 spec:
   containers:
   - name: api-calculadora
-  image: proyedwin/api-calculadora:multistage
-  ports:
-  - containerPort: 5081
+    image: proyedwin/api-calculadora:multistage
+    ports:
+    - containerPort: 5081
